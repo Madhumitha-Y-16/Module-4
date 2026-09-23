@@ -28,6 +28,18 @@ To write a Python program to take the radius from the user and find the area of 
 ### PROGRAM
 
 ```
+REG NO-212223060144
+NAME- Madhumitha Y
+import math
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+    def calculate_area(self):
+        return math.pi * (self.radius ** 2)
+radius = float(input())
+circle = Circle(radius)
+print(f"Area of circle: {circle.calculate_area():.2f}")
+
 
 
 
@@ -35,9 +47,10 @@ To write a Python program to take the radius from the user and find the area of 
 
 ### OUTPUT
 
+<img width="709" height="224" alt="image" src="https://github.com/user-attachments/assets/d533e15a-8937-491c-8a5b-8a4ec9611d9d" />
 
 
 ### RESULT
 
-
+Thus, the python code is written and executed successfully.
 
